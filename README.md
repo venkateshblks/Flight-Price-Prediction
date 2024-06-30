@@ -69,7 +69,32 @@ If It is equal to zero it means two random variables are independent, and higher
 values mean higher dependency**
 
 ## 14..Build ML model
+- Linear Regression
+- Random Forest
+- Decision Tree
+- Lasso
+- Ridge
+- ElasticNet
+
+
 
 ## 15..automate ml pipeline
 
 ## 16..hypertune ml mode
+  ### Random Forest
+  
+## 17..Model Evaluation
+ **Based on the metrics provided, Tuned Random Forest appears to be the best model as it has the lowest MAE, MSE, RMSE, MSLE, MAPE, and the highest R-squared value. This indicates that it provides the most accurate predictions among the models  evaluated.**
+
+
+ ## Model Evaluation Metrics
+
+| Model                 | MAE          | MSE         | RMSE        | R-squared | MSLE      | MAPE      |
+|-----------------------|--------------|-------------|-------------|-----------|-----------|-----------|
+| Linear Regression     | 1982.918373  | 7.773350e+06| 2788.072887 | 0.583069  | 0.091148  | 24.607522 |
+| Random Forest         | 1178.555930  | 3.443156e+06| 1855.574411 | 0.815323  | 0.034725  | 13.288342 |
+| Decision Tree         | 1353.031854  | 5.581069e+06| 2362.428559 | 0.700654  | 0.053534  | 15.246201 |
+| Lasso                 | 1982.730707  | 7.773108e+06| 2788.029465 | 0.583082  | 0.090839  | 24.598994 |
+| Ridge                 | 1982.908482  | 7.773399e+06| 2788.081543 | 0.583066  | 0.091113  | 24.607441 |
+| ElasticNet            | 2111.016087  | 8.554057e+06| 2924.732021 | 0.541195  | 0.099484  | 26.969858 |
+| Tuned Random Forest   | 1135.829890  | 3.094167e+06| 1759.024452 | 0.834041  | 0.030351  | 12.787810 |
